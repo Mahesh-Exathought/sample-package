@@ -1,0 +1,27 @@
+{
+  "name": "sample-package",
+  "version": "1.0.0",
+  "description": "A description of your React package",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "npm"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/preset-env": "^7.23.7",
+    "@babel/preset-react": "^7.23.3",
+    "save-dev": "^0.0.1-security"
+  }
+}
